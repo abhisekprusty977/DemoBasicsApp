@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func MoveToNext(_ sender: UIButton) {
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "NextScreenViewController") as! NextScreenViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
 }
 
