@@ -21,5 +21,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func MOVEPractice(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PracticeFormViewController") as! PracticeFormViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
 }
 
