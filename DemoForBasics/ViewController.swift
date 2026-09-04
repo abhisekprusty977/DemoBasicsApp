@@ -27,5 +27,11 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func MOVELogin(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "LoginScreenViewController") as! LoginScreenViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
 }
 
