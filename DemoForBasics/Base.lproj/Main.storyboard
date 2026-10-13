@@ -197,6 +197,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="txt_password" destination="ejO-Oy-i1f" id="FzJ-rj-pS7"/>
+                        <outlet property="txt_username" destination="snt-bg-5rv" id="Qid-JO-J8z"/>
                         <outlet property="view_login" destination="dvI-Sn-Vo2" id="Cry-IW-VLM"/>
                         <outlet property="view_popone" destination="noG-Fh-U3m" id="uBq-2P-DQl"/>
                         <outlet property="view_poptwo" destination="Iw2-7d-1Tc" id="g5N-m2-MWc"/>
@@ -1996,7 +1998,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
